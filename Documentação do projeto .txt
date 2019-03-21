@@ -1,0 +1,28 @@
+1) Criar um diretório (pasta nao pode conter letra maiuscula
+2) Iniciar o npm (npm init)
+3) Baixar dependencias
+   3.1)Express (npm install express --save)
+   3.2)Ejs (npm install ejs --save)  
+   3.3)Consign (npm install consign --save)  
+   3.4)Body-parser (npm install body-parser --save) 
+   3.5)Express-validator (npm install express-validator --save)	
+4) Criar pasta config onde fica o server.js
+5) Criar arquivo app.js que sera o ponto de entrada para a aplicação 
+6) Criar pasta app (MVC)
+   6.1) Criar pasta para views
+   6.2) Criar pasta para models
+   6.3) Criar pasta para controllers
+   6.4) Criar pasta para routes
+   6.5) Criar pasta para public
+        6.5.1)Criar pasta para Css
+        6.5.2)Criar pasta para Imagens 
+   	6.5.3)Criar pasta para js
+
+--------- Instalando o socket.io---------
+1) npm install socket.io --save
+2) Para ultilizar:
+	- Colocar o script do websocket no lado do cliente
+	- <script src="/socket.io/socket.io.js"></script>
+	- Criar uma variavel e atribuir a instancia do objeto
+	- <script> var socket = io('http://localhost');</script>
+	- Do lado do servidor
